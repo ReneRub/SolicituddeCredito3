@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorRojo"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@drawable/cuadro_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="135dp"
+        />
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="40dp">
+
+        <ImageView
+
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/vv"
+            android:background="@drawable/cuadro_login"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:scaleType="fitXY"/>
+
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="53dp"
+                android:layout_weight=".1"
+                android:background="@drawable/edittext_bn"
+                android:id="@+id/etUsuario"
+                android:drawablePadding="2dp"
+                android:padding="4dp"
+                android:drawableLeft="@drawable/ic_usuario"
+                android:drawableTint="@color/colorRojo"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:singleLine="true"
+                android:hint="Usuario"
+                android:textColor="@color/colorNegro"
+                android:textColorHint="@color/colorRojoOscuro"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="55dp"
+                android:layout_weight=".1"
+                android:id="@+id/etPassword"
+                android:drawablePadding="2dp"
+                android:padding="4dp"
+                android:drawableLeft="@drawable/ic_pass"
+                android:drawableTint="@color/colorRojo"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:singleLine="true"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:textColorHint="@color/colorRojoOscuro"
+                android:background="@drawable/edittext_bn"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight=".1"
+                android:id="@+id/btnLogin"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/button_bn"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Iniciar Sesión"
+                android:textColor="@color/colorAmarillo"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-condensed"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

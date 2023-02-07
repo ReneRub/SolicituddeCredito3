@@ -1,0 +1,644 @@
+<resources>
+    <string name="app_name">SOLICITUD DE CRÉDITO</string>
+    <string name="Mensajeduplicidad">Rechazada por duplicidad</string>
+    <string name="Mensajeriesgo">Rechazada por riesgo de trabajo</string>
+    <string name="Mensajeconyuge">Rechazada (cónyuge ya cuenta con crédito)</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Valdez Baluarte</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="ip">http://valdezb.com/verificaciondomiciliaria/2.0/</string>
+    <string name="ip2">http://10.0.1.247/mvcphp/</string>
+    <string name="ip3">http://valdezb.com/verificaciondomiciliaria/copiaPruebas/</string>
+    <string name="ip6">http://valdezb.com/verificaciondomiciliaria/copiaPruebas/</string>
+    <string name="ip4">http://valdezbaluarte.net:89/PortalVB/Credito/Services/SolicitudCredito.asmx?</string>
+    <string name="ip5">http://10.0.1.142/copiaPruebas/</string>
+    <string name="numerosletras">abcdefghijklmnopqrstuvxwyz0123456789ABCDEFGHIJKLMNÑOPQRSTUVWXYZ </string>
+
+
+    <string name="formato_hora">hh:mm</string>
+    <string-array name="Categorias1">
+        <item>CELULARES</item>
+        <item>ELECTRODOMESTICOS</item>
+        <item>LINEA BLANCA</item>
+        <item>MUEBLES</item>
+        <item>CALZADO</item>
+        <item>ACCESORIOS COCHE</item>
+    </string-array>
+    <string-array name="MunSin">
+        <item>AHOME</item>
+        <item>ANGOSTURA</item>
+        <item>BADIRAGUATO</item>
+        <item>CONCORDIA</item>
+        <item>COSALA</item>
+        <item>CULIACAN</item>
+        <item>CHOIX</item>
+        <item>ELOTA</item>
+        <item>ESCUINAPA</item>
+        <item>EL FUERTE</item>
+        <item>GUASAVE</item>
+        <item>MAZATLAN</item>
+        <item>MOCORITO</item>
+        <item>EL ROSARIO</item>
+        <item>SALVADOR ALVARADO</item>
+        <item>SAN IGNACIO</item>
+        <item>SINALOA</item>
+        <item>NAVOLATO</item>
+    </string-array>
+    <string-array name="MunDur">
+        <item>CANATLAN</item>
+        <item>CANELAS</item>
+        <item>CONETO DE COMONFORT</item>
+        <item>CUENCAME</item>
+        <item>DURANGO</item>
+        <item>EL ORO</item>
+        <item>GENERAL SIMON BOLIVAR</item>
+        <item>GOMEZ PALACIO</item>
+        <item>GUADALUPE VICTORIA</item>
+        <item>GUANACEVI</item>
+        <item>HIDALGO</item>
+        <item>INDE</item>
+        <item>LERDO</item>
+        <item>MAPIMI</item>
+        <item>MEZQUITAL</item>
+        <item>NAZAS</item>
+        <item>NOMBRE DE DIOS</item>
+        <item>NOMBRE IDEAL</item>
+        <item>OCAMPO</item>
+        <item>OTAEZ</item>
+        <item>PANUCO DE CORONADO</item>
+        <item>PEÑON BLANCO</item>
+        <item>POANAS</item>
+        <item>PUEBLO NUEVO</item>
+        <item>RODEO</item>
+        <item>SAN BERNARDO</item>
+        <item>SAN DIMAS</item>
+        <item>SAN JUAN GUADALUPE</item>
+        <item>SAN JUAN DEL RIO</item>
+        <item>SAN LUIS DEL CORDERO</item>
+        <item>SAN PEDRO DEL GALLO</item>
+        <item>SANTA CLARA</item>
+        <item>SANTIAGO PAPASQUIARO</item>
+        <item>SUCHIL</item>
+        <item>TAMAZULA</item>
+        <item>TEPEHUANES</item>
+        <item>TLAHUALILO</item>
+        <item>TOPIA</item>
+        <item>VICENTE GUERRERO</item>
+    </string-array>
+    <string-array name="MunNar">
+        <item>ACAPONETA</item>
+        <item>AHUACATLAN</item>
+        <item>AMATLAN DE CAÑAS</item>
+        <item>BAHIA DE BANDERAS</item>
+        <item>COMPOSTELA</item>
+        <item>DEL NAYAR</item>
+        <item>HUAJICORI</item>
+        <item>IXTLAN DEL RIO</item>
+        <item>JALA</item>
+        <item>LA YESCA</item>
+        <item>ROSAMORADA</item>
+        <item>RUIZ</item>
+        <item>SAN BLAS</item>
+        <item>SAN PEDRO LAGUNILLAS</item>
+        <item>SANTA MARIA DEL ORO</item>
+        <item>SANTIAGO IXCUINTLA</item>
+        <item>TECUALA</item>
+        <item>TEPIC</item>
+        <item>TUXPAN</item>
+        <item>XALISCO</item>
+    </string-array>
+    <string-array name="MunJal">
+        <item>ACATIC</item>
+        <item>ACATLAN DE JUAREZ</item>
+        <item>AHUALULCO DE MERCADO</item>
+        <item>AMACUECA</item>
+        <item>AMATITAN</item>
+        <item>AMECA</item>
+        <item>ARANDAS</item>
+        <item>ATAMEJAC DE BRIZUELA</item>
+        <item>ATENGO</item>
+        <item>ATENGUILLO</item>
+        <item>ATOTONILCO EL ALTO</item>
+        <item>ATOYAC</item>
+        <item>AYUTLA DE NAVARRO</item>
+        <item>AYOTLAN</item>
+        <item>AYUTLA</item>
+        <item>BOLAÑOS</item>
+        <item>CABO CORRIENTES</item>
+        <item>CAÑADAS DE OBREGON</item>
+        <item>CASIMIRO CASTILLO</item>
+        <item>CHAPALA</item>
+        <item>CHIMALTITAN</item>
+        <item>CHIQUILISTLAN</item>
+        <item>CIHUATLAN</item>
+        <item>COCULA</item>
+        <item>COLOTLAN</item>
+        <item>CONCEPCION DE BUENOS AIRES</item>
+        <item>CUAUTITLAN DE GARCIA BARR..</item>
+        <item>CUAUTLA</item>
+        <item>CUQUIO</item>
+        <item>DEGOLLADO</item>
+        <item>EJUTLA</item>
+        <item>EL ARENAL</item>
+        <item>EL GRULLO</item>
+        <item>EL LIMON</item>
+        <item>EL SALTO</item>
+        <item>ENCARNACION DE DIAZ</item>
+        <item>ETZATLAN</item>
+        <item>GOMEZ FARIAS</item>
+        <item>GUACHINANGO</item>
+        <item>GUADALAJARA</item>
+        <item>HOSTOTIPAQUILLO</item>
+        <item>HUEJUCAR</item>
+    </string-array>
+    <string-array name="MunSon">
+        <item>ACONCHI</item>
+        <item>AGUA PRIETA</item>
+        <item>ALAMOS</item>
+        <item>ALTAR</item>
+        <item>ARIVECHI</item>
+        <item>ARIZPE</item>
+        <item>ATIL</item>
+        <item>BACADEHUACHI</item>
+        <item>BACANORA</item>
+        <item>BACERAC</item>
+        <item>BACOACHI</item>
+        <item>BACUM</item>
+        <item>BANAMICHI</item>
+        <item>BAVIACORA</item>
+        <item>BAVISPE</item>
+        <item>BENJAMIN HILL</item>
+        <item>CABORCA</item>
+        <item>CAJEME</item>
+        <item>CANANEA</item>
+        <item>CARBO</item>
+        <item>LA COLORADA</item>
+        <item>CUCURPE</item>
+        <item>CUMPAS</item>
+        <item>DIVISADEROS</item>
+        <item>AMPALME</item>
+        <item>ETCHOJOA</item>
+        <item>FRONTERAS</item>
+        <item>GRANADOS</item>
+        <item>GUAYMAS</item>
+        <item>HERMOSILLO</item>
+        <item>HUACHINERA</item>
+        <item>HUASABAS</item>
+        <item>HUATABAMPO</item>
+        <item>HUEPAC</item>
+        <item>IMURIS</item>
+        <item>MAGDALENA</item>
+        <item>MAZATAN</item>
+        <item>MOCTEZUMA</item>
+        <item>NACO</item>
+        <item>NACORI CHICO</item>
+        <item>NACOZARI DE GARCIA</item>
+        <item>NAVOJOA</item>
+        <item>NOGALES</item>
+        <item>ONAVAS</item>
+        <item>OPODEPE</item>
+        <item>OQUITOA</item>
+        <item>PITIQUITO</item>
+        <item>PUERTO PEÑASCO</item>
+        <item>QUIRIEGO</item>
+        <item>RAYON</item>
+        <item>ROSARIO</item>
+        <item>SAHUARIPA</item>
+        <item>SAN FELIPE DE JESUS</item>
+        <item>SAN JAVIER</item>
+        <item>SAN LUIS RIO COLORADO</item>
+    </string-array>
+    <string-array name="Ocupacion">
+        <item>ABARROTERO</item>
+        <item>ADOQUINERO</item>
+        <item>AEROMOSA</item>
+        <item>AGENTE DE VENTAS</item>
+        <item>AGENTE DEL MINISTERIO PUBLICO</item>
+        <item>AGRICULTOR</item>
+        <item>AGENTE DE SEGUROS</item>
+        <item>ALBAÑIL</item>
+        <item>ALFARERO</item>
+        <item>ALMACENISTA</item>
+        <item>ALUMINERO</item>
+        <item>ANALISTA</item>
+        <item>ARRENDADOR</item>
+        <item>ARTESANO</item>
+        <item>ASESOR</item>
+        <item>ASISTENTE</item>
+        <item>AUDITOR</item>
+        <item>AUXILIAR</item>
+        <item>ADMINISTRATIVO</item>
+        <item>BARTENDER</item>
+        <item>BARBERO</item>
+        <item>BARRENDERO</item>
+        <item>BIENES RAICES</item>
+        <item>BOMBERO</item>
+        <item>CAJERO</item>
+        <item>CAMARERA</item>
+        <item>CARGADOR</item>
+        <item>CARNICERO</item>
+        <item>CARPINTERO</item>
+        <item>CARTERO</item>
+        <item>CHECADOR</item>
+        <item>COCINERO</item>
+        <item>CHEF</item>
+        <item>CHOFER</item>
+        <item>COMERCIANTE</item>
+        <item>COMISARIO</item>
+        <item>CONSERJE</item>
+        <item>CONTADOR</item>
+        <item>CONTRATISTA</item>
+        <item>COSTURERA</item>
+        <item>CUIDADOR DE ANCIANOS</item>
+        <item>DECORADOR</item>
+        <item>DENTISTA</item>
+        <item>DIRECTOR</item>
+        <item>DISEÑADOR</item>
+        <item>DOCTOR</item>
+        <item>ELECTRICISTA</item>
+        <item>EMPACADOR</item>
+        <item>EMPLEADA DOMESTICA</item>
+        <item>EMPLEADO DE MOSTRADOR</item>
+        <item>ENFERMERA</item>
+        <item>ENTRENADOR</item>
+        <item>ESTILISTA</item>
+        <item>FABRICANTE</item>
+        <item>FARMACEUTICO</item>
+        <item>FLETERO</item>
+        <item>FOTOGRAFO</item>
+        <item>GANADERO</item>
+        <item>GERENTE</item>
+        <item>GESTOR</item>
+        <item>GRANJERO</item>
+        <item>HERRERO</item>
+        <item>HOJALATERO</item>
+        <item>HUESERO</item>
+        <item>INGENIERO</item>
+        <item>INSPECTOR</item>
+        <item>JARDINERO</item>
+        <item>JORNALERO</item>
+        <item>JUEZ</item>
+        <item>MECANICO</item>
+        <item>MESERO</item>
+        <item>MUSICO</item>
+        <item>MAESTRO</item>
+        <item>NIÑERA</item>
+        <item>PANADERO</item>
+        <item>PAQUETERO</item>
+        <item>PESCADOR</item>
+        <item>PINTOR</item>
+        <item>PROFESOR</item>
+        <item>QUIMICO</item>
+        <item>RECAMARERA</item>
+        <item>RECEPCIONISTA</item>
+        <item>SACERDOTE</item>
+        <item>SASTRE</item>
+        <item>SECRETARIA</item>
+        <item>SEGURIDAD PRIVADA</item>
+        <item>SUPERVISOR</item>
+        <item>TAXISTA</item>
+        <item>TECNICO</item>
+        <item>TRADUCTOR</item>
+        <item>VALET PARKING</item>
+        <item>VELADOR</item>
+        <item>VENDEDOR</item>
+        <item>VETERINARIO</item>
+        <item>VIDRIERO</item>
+        <item>VIGILANTE</item>
+        <item>VITROPISERO</item>
+        <item>YESERO</item>
+        <item>ZAPATERO</item>
+    </string-array>
+    <string-array name="Localidades">
+        <item>COLONIA</item>
+        <item>BARRIO</item>
+        <item>EJIDO</item>
+        <item>FRACCIONAMIENTO</item>
+        <item>RESIDENCIAL</item>
+        <item>PRIVADA</item>
+        <item>SINDICATURA</item>
+        <item>POBLADO</item>
+        <item>RESERVAS</item>
+        <item>LOCALIDAD</item>
+        <item>PUEBLO</item>
+        <item>AMPLIACION</item>
+        <item>RANCHERIA</item>
+        <item>RANCHO</item>
+        <item>CONGREGACION</item>
+        <item>ZONA INDUSTRIAL</item>
+    </string-array>
+    <string-array name="EstadoCivil">
+        <item>CASADO(A)</item>
+        <item>DIVORCIADO(A)</item>
+        <item>VIUDO(A)</item>
+        <item>SOLTERO(A)</item>
+        <item>UNION LIBRE</item>
+    </string-array>
+    <string-array name="Entidad">
+        <item>DURANGO</item>
+        <item>JALISCO</item>
+        <item>NAYARIT</item>
+        <item>SINALOA</item>
+        <item>SONORA</item>
+    </string-array>
+    <string-array name="Creditos">
+        <item>BANCO</item>
+        <item>CASA COMERCIAL</item>
+        <item>TARJETA BANCARIA</item>
+        <item>NINGUNO</item>
+    </string-array>
+    <string-array name="Parentesco">
+        <item>ABUELO(A)</item>
+        <item>AMIGO(A)</item>
+        <item>CONCUÑO(A)</item>
+        <item>CONYUGUE</item>
+        <item>CUÑADO(A)</item>
+        <item>HERMANO(A)</item>
+        <item>HIJO(A)</item>
+        <item>MADRE</item>
+        <item>NIETO(A)</item>
+        <item>NUERA(A)</item>
+        <item>YERNO</item>
+        <item>PADRE</item>
+        <item>PRIMO(A)</item>
+        <item>SOBRINO(A)</item>
+        <item>SUEGRO(A)</item>
+    </string-array>
+    <string-array name="SexoHM">
+        <item>HOMBRE</item>
+        <item>MUJER</item>
+    </string-array>
+    <string-array name="Trabaja">
+        <item>SI</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="TipoVivi">
+        <item>PROPIA</item>
+        <item>RENTADA</item>
+        <item>FAMILIAR</item>
+    </string-array>
+    <string-array name="Periodo">
+        <item>SEMANAL</item>
+        <item>QUINCENAL</item>
+        <item>MENSUAL</item>
+    </string-array>
+    <string-array name="Paises">
+        <item>MEXICO</item>
+        <item>AFGANISTAS</item>
+        <item>ALBANIA</item>
+        <item>ALEMANIA</item>
+        <item>ANDORRA</item>
+        <item>ANGOLA</item>
+        <item>ARABIA SAUDITA</item>
+        <item>ARGELIA</item>
+        <item>ARGENTINA</item>
+        <item>ARMENIA</item>
+        <item>AUSTRALIA</item>
+        <item>AZERBAIYAN</item>
+        <item>BAHAMAS</item>
+        <item>BANGLADES</item>
+        <item>BARBADOS</item>
+        <item>BELGICA</item>
+        <item>BELICE</item>
+        <item>BIELORUSIA</item>
+        <item>BOLIVIA</item>
+        <item>BRASIL</item>
+        <item>BULGARIA</item>
+        <item>BURKINA FASO</item>
+        <item>CABO VERDE</item>
+        <item>CAMBOLLA</item>
+        <item>CAMERUN</item>
+        <item>CANADA</item>
+        <item>CATAR</item>
+        <item>CHILE</item>
+        <item>CHINA</item>
+        <item>CHIPRE</item>
+        <item>COLOMBIA</item>
+        <item>COMORAS</item>
+        <item>CONGO</item>
+        <item>COREA DEL NORTE</item>
+        <item>COREA DEL SUR</item>
+        <item>COSTA DE MARFIL</item>
+        <item>COSTA RICA</item>
+        <item>CROACIA</item>
+        <item>CUBA</item>
+        <item>DINAMARCA</item>
+        <item>ECUADOR</item>
+        <item>EGIPTO</item>
+        <item>EL SALVADOR</item>
+        <item>EMIRATOS ARABES UNIDOS</item>
+        <item>ESLOVAQUIA</item>
+        <item>ESLOVENIA</item>
+        <item>ESPAÑA</item>
+        <item>ESTADOS UNIDOS</item>
+        <item>ESTONIA</item>
+        <item>ETIOPIA</item>
+        <item>FILIPINAS</item>
+        <item>FINLANDIA</item>
+        <item>FRANCIA</item>
+        <item>GAMBIA</item>
+        <item>GEORGIA</item>
+        <item>GHANA</item>
+        <item>GRANDA</item>
+        <item>GRECIA</item>
+        <item>GUATEMALA</item>
+        <item>GUINEA</item>
+        <item>GUYANA</item>
+        <item>HAITI SAUDITA</item>
+        <item>HONDURAS</item>
+        <item>HUNGRIA</item>
+        <item>INDIA</item>
+        <item>INDONESIA</item>
+        <item>IRAK</item>
+        <item>IRAN</item>
+        <item>IRLANDA</item>
+        <item>ISLANDIA</item>
+        <item>ISRAEL</item>
+        <item>ITALIA</item>
+        <item>JAMAICA</item>
+        <item>JAPON</item>
+        <item>JORDANIA</item>
+        <item>KAZAJISTAN</item>
+        <item>KENIA</item>
+        <item>KUWAIT</item>
+        <item>LETONIA</item>
+        <item>LIBANO</item>
+        <item>LIBERIA</item>
+        <item>LIBIA</item>
+        <item>LITUANIA</item>
+        <item>LUXEMBURGO</item>
+        <item>MACEDONIA</item>
+        <item>MADAGASCAR</item>
+        <item>MALASIA</item>
+        <item>MALAUI</item>
+        <item>MALDIVAS</item>
+        <item>MALI</item>
+        <item>MARRUECOS</item>
+        <item>MEXICO</item>
+        <item>MICRONESIA</item>
+        <item>MOLDAVIA</item>
+        <item>MONACO</item>
+        <item>MONGOLIA</item>
+        <item>MONTENEGRO</item>
+        <item>MOZAMBIQUE</item>
+        <item>NAMIBIA</item>
+        <item>NEPAL</item>
+        <item>NICARAGUA</item>
+        <item>NIGERIA</item>
+        <item>NORUEGA</item>
+        <item>NUEVA ZELANDA</item>
+        <item>PAISES BAJOS</item>
+        <item>PAKISTAN</item>
+        <item>PALESTINA</item>
+        <item>PANAMA</item>
+        <item>PARAGUAY</item>
+        <item>PERU</item>
+        <item>POLONIA</item>
+        <item>PORTUGAL</item>
+        <item>REINO UNIDO</item>
+        <item>REPUBLICA CENTROAFRICANA</item>
+        <item>REPUBLICA CHECA</item>
+        <item>REPUBLICA DEL CONGO</item>
+        <item>REPUBLICA DOMINICANA</item>
+        <item>RUANDA</item>
+        <item>RUMANIA</item>
+        <item>RUSIA</item>
+        <item>SAMOA</item>
+        <item>SAN CRISTOBAL Y NIEVES</item>
+        <item>SAN MARINO</item>
+        <item>SAN VICENTE</item>
+        <item>SANTA LUCIA</item>
+        <item>SANTO TOME Y PRINCIPE</item>
+        <item>SENEGAL</item>
+        <item>SERBIA</item>
+        <item>SEYCHELLES</item>
+        <item>SIERRA LEONA</item>
+        <item>SINGAPUR</item>
+        <item>SIRIA</item>
+        <item>SOMALIA</item>
+        <item>SRI LANKA</item>
+        <item>SUAZILANDIA</item>
+        <item>SUDAFRICA</item>
+        <item>SUDAN</item>
+        <item>SUDAN DEL SUR</item>
+        <item>SUECIA</item>
+        <item>SUIZA</item>
+        <item>SURINAM</item>
+        <item>TAILANDIA</item>
+        <item>TAIWAN</item>
+        <item>TANZANIA</item>
+        <item>TAYIKISTAN</item>
+        <item>TIMOR ORIENTAL</item>
+        <item>TOGO</item>
+        <item>TONGA</item>
+        <item>TRINIDAD Y TOBAGO</item>
+        <item>TUNEZ</item>
+        <item>TURQUIA</item>
+        <item>TUVALU</item>
+        <item>UCRANIA</item>
+        <item>UGANDA</item>
+        <item>URUGUAY</item>
+        <item>UZBEKISTAN</item>
+        <item>VANUATU</item>
+        <item>VATICANO</item>
+        <item>VENEZUELA</item>
+        <item>VIETNAM</item>
+        <item>YEMEM</item>
+        <item>YIBUTI</item>
+        <item>ZAMBIA</item>
+        <item>ZIMBAHUE</item>
+    </string-array>
+
+    <string-array name="Meses">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="Años">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+    </string-array>
+
+</resources>

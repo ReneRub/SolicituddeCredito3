@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nvaSol"
+            android:icon="@drawable/newit"
+            android:title="Nueva Solicitud" />
+        <item
+            android:id="@+id/sincronizarcat"
+            android:icon="@drawable/syncro"
+            android:title="Sincronizar Catálagos" />
+        <item
+            android:id="@+id/solPen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/pending"
+            android:title="Solicitudes Pendientes" />
+        <item
+            android:id="@+id/DescargarCs"
+            android:icon="@drawable/shop"
+            android:title="Descargar CamScanner" />
+        <item
+            android:id="@+id/DescargarAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/shop"
+            android:title="Descargar FileManager" />
+        <item
+            android:id="@+id/cerrarSes"
+            android:icon="@drawable/logout"
+            android:title="Cerrar Sesión" />
+
+
+    </group>
+
+
+
+</menu>
